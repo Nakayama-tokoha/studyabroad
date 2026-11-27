@@ -20,21 +20,21 @@
 　　files フォルダを開く  
 　　右上の「Add file」→「Upload files」を選択  
 　　新しいファイルを、今と同じ名前にしてアップロードし、「Commit changes」を押す。同じ名前なら上書きされます  
-- 写真を追加する  
-　　写真を `images/` にアップロードする(横幅1200px程度・JPEG・1枚500KB以下が目安。大きすぎると表示が遅くなります)  
-　　`index.html` の載せたい場所に、次のように書く  
-　　　　1枚だけ載せる場合:  
-　　　　```html  
-　　　　<figure class="ph"><img src="images/ファイル名.jpg" alt="写真の説明"><figcaption>キャプション</figcaption></figure>  
-　　　　```  
-　　　　数枚を並べる場合:  
-　　　　```html  
-　　　　<div class="phs">  
-　　　　<img src="images/a.jpg" alt="説明1">  
-　　　　<img src="images/b.jpg" alt="説明2">  
-　　　　</div>  
-　　　　```  
-　　　　`alt` には写真の内容を書いてください(音声読み上げや、画像が表示されないときに使われます)。  
+- 写真を追加する
+  写真を `images/` にアップロードする（横幅1200px程度・JPEG・1枚500KB以下が目安。大きすぎると表示が遅くなります）。
+  `index.html` の載せたい場所に、次のように書く。
+  **1枚だけ載せる場合：**
+　```html  
+　<figure class="ph"><img src="images/ファイル名.jpg" alt="写真の説明"><figcaption>キャプション</figcaption></figure>  
+　```  
+　**1枚だけ載せる場合：**  
+　```html  
+　<div class="phs">  
+　<img src="images/a.jpg" alt="説明1">  
+　<img src="images/b.jpg" alt="説明2">  
+　</div>  
+　```  
+　`alt` には写真の内容を書いてください(音声読み上げや、画像が表示されないときに使われます)。  
 
 - 文字の大きさ・フォント・色を変更する場合  
 　　文字：`style.css` の `html{font-size:17px}` の数字を変更  
