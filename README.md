@@ -23,7 +23,7 @@
 - 写真を追加する
   写真を `images/` にアップロードする（横幅1200px程度・JPEG・1枚500KB以下が目安。大きすぎると表示が遅くなります）。
   `index.html` の載せたい場所に、次のように書く。  
-**1枚だけ載せる場合：**
+**1枚だけ載せる場合：**  
 　```html  
 　<figure class="ph"><img src="images/ファイル名.jpg" alt="写真の説明"><figcaption>キャプション</figcaption></figure>  
 　```  
